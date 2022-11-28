@@ -1,7 +1,9 @@
-function nameGrading {} {
-  let  50=100
+const prompt = require('prompt-sync')();
+const grade =parseInt(prompt('Enter a value between o and 100:'));
+function nameGrading () {
+  
  // Nested if else
- if (grade  <= 100 && grade >= 79) {
+ if (grade  >= 79 && grade <= 100) {
     console.log('A');
 ;}
  if (grade >= 60 && grade <= 78) {
@@ -13,8 +15,13 @@ if (grade >= 50 && grade <= 59) {
         else if (grade >= 40 && grade <= 49) {
                 console. log('D');
             }
-            else if (grade < 39 ){
+            else if (grade < 39 && grade <=0 ){
                 console.log('E')
             }  
-            nameGrading{}
+
+            else {  
+                console.log('Error');
+                
+            }
+            nameGrading()
 }

@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/PapitoSpence/codechallenge1.grading/issues"
   },
-  "homepage": "https://github.com/PapitoSpence/codechallenge1.grading#readme"
+  "homepage": "https://github.com/PapitoSpence/codechallenge1.grading#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
