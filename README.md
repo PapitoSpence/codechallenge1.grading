@@ -2,7 +2,9 @@
 A function that prompts the user to input student marks frombetween 0 and 100 that output the correct grade
 
 Setup: the file will be setp in the index.js file
+
 Author: Spencer MWenda.
+
 license: MIT License
 
 Copyright (c) [2022] [Spencer Mwenda]
