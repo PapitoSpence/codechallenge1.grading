@@ -1,7 +1,10 @@
 # codechallenge1.grading
 A function that prompts the user to input student marks frombetween 0 and 100 that output the correct grade
 
-Setup: the file will be setp in the index.js file
+Setup: the file will be setup in the index.js file.
+Run npm install prompt-sync, then npm start to ensure no errors.
+You can check the grading by first typing the command node index.js
+which will prompt you to enter a numerical digit, Input any digit and it sbhoud display the correct grade.
 
 Author: Spencer MWenda.
 
